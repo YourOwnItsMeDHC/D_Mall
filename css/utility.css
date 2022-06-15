@@ -1,0 +1,33 @@
+/* Utility css contains rules which can be applied to any property irrespective of anything */
+
+/* Align content horizontally as well as vertically using flex  */
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Margin from Y-axis */
+.my-1 {
+    margin: 5px 0;
+}
+.my-2 {
+    margin: 26px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pink {
+    color: gray;
+}
