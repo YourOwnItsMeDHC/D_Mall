@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Globally accepted variables */
+:root {
+
+    /* Flipkart Color :  */
+    /* --main-bg-color: #2874f0; */
+
+    /* Flipkart Color :  */
+    --main-bg-color: #b3b6bb;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* 1. Create a thin progress bar animation for a website. */
+@keyframes loading {
+    0% {
+        width: 0vw;
+        height: 3px;
+    }
+
+    50% {
+        width: 20vw;
+        height: 3px;
+    }
+
+    75% {
+        width: 40vw;
+        height: 3px;
+    }
+
+    90% {
+        width: 100vw;
+        height: 3px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+.progressBar {
+    background-color: red;
+    animation: loading 2s ease-in-out 1 normal;
+}
+
+
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Flipkart Logo :  */
+/* .logo img {
+    width: 88px;
+    padding: 0 25px;
+} */
+
+/* My Logo :  */
+.logo h1 {
+    padding: 0 25px;
+    color :white;
+}
+
+
+/* Navigation Options */
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 10px;
+}
+
+/* Search Button  */
+/* In Utility CSS */
+
+.search button {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.btn:hover {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/* Container  */
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+/* .slider img {
+    width: 80vw;
+    margin: 12px 10vw 12px 10vw;
+} */
+
+.slider img {
+    overflow: hidden;
+    width: 80vw;
+    transform: translate(-80vw);
+    animation: slideImages1 10s ease-in-out infinite forwards;
+}
+
+@keyframes slideImages1 {
+    0% {
+        transform: translate(-80vw);
+        margin: 12px 10vw 12px 10vw;
+    }
+
+    25% {
+        transform: translate(0vw);
+        margin: 12px 10vw 12px 10vw;
+    }
+
+    50% {
+        transform: translate(0vw);
+        margin: 12px 10vw 12px 10vw;
+    }
+
+    100% {
+        transform: translate(100vw);
+        margin: 12px 10vw 12px 10vw;
+    }
+}
+
+
+
+
+
+
+
+/* Cards for products */
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+}
+
+.card h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-items {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.cards {
+    display: flex;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+
+
+
+
+
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
