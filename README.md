@@ -17,7 +17,7 @@
 
 <h1 align=center> Project Admin ❤️ </h1>
 
------------------------------------------ [![image](https://user-images.githubusercontent.com/95961231/174293958-c76284f7-1ca4-4060-8866-44bee4fa1043.png)](https://github.com/YourOwnItsMeDHC)------------------------------------------------------
+---------------------------------------------- [![image](https://user-images.githubusercontent.com/95961231/174293958-c76284f7-1ca4-4060-8866-44bee4fa1043.png)](https://github.com/YourOwnItsMeDHC)------------------------------------------------------
 
 <p align="center">
   <a target="_blank"href="https://www.linkedin.com/in/deepak-chourasiya-079204216/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
